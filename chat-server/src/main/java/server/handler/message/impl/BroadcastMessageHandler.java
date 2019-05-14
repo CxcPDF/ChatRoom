@@ -29,7 +29,7 @@ public class BroadcastMessageHandler extends MessageHandler {
                             message.getBody()
                     )
             );
-            super.broadcast(response,server);
+            super.broadcast(response, server);
         } catch (IOException e) {
             e.printStackTrace();
         }
